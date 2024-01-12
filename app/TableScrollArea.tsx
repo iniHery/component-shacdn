@@ -58,7 +58,7 @@ const invoices = [
     paymentMethod: "Credit Card",
   },
 ];
-export function ScrollAreaShacdn() {
+export function TableScrollArea() {
   return (
     <Table>
       <TableCaption>A list of your recent invoices.</TableCaption>
