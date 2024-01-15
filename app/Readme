@@ -1,0 +1,9 @@
+Tutorial run project
+
+Navigate to the cloned project directory:
+
+- cd [nama-project]
+
+Use the "run" command to execute the project in the browser:
+
+- yarn dev
