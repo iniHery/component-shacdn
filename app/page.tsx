@@ -1,8 +1,16 @@
-import { TableScrollArea } from "./TableScrollArea";
-import { Mail } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  X,
+  Camera,
+  Facebook,
+  Twitter,
+  User,
+  Github,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import Link from "next/link";
+import { Input } from "@/components/ui/input";
 
 export default function Home() {
   return (
@@ -60,27 +68,43 @@ export default function Home() {
           <div>
             <div className="pt-6 gap-4 flex justify-between">
               <Button variant="custom">
-                <Mail className="mr-2 h-4 w-4" /> Login with Email
+                <Twitter className="mr-2 h-4 w-4" /> Login with Twitter
               </Button>
               <Button variant="default">
-                <Mail className="mr-2 h-4 w-4" /> Login with Email
+                <Facebook className="mr-2 h-4 w-4" /> Login with Facebook
               </Button>
               <Button variant="secondary">
-                <Mail className="mr-2 h-4 w-4" /> Login with Email
+                <User className="mr-2 h-4 w-4" /> Login with Google
               </Button>
               <Button variant="destructive">
-                <Mail className="mr-2 h-4 w-4" /> Login with Email
+                <Github className="mr-2 h-4 w-4" /> Login with Github
               </Button>
               <Button variant="outline">
                 <Mail className="mr-2 h-4 w-4" /> Login with Email
               </Button>
               <Button variant="ghost">
-                <Mail className="mr-2 h-4 w-4" /> Login with Email
+                <Phone className="mr-2 h-4 w-4" /> Login with Phone Number
               </Button>
             </div>
           </div>
         </div>
         {/* With Icon End */}
+      </div>
+
+      <div className="pt-10 w-full flex items-start">
+        {/* Input Start */}
+        <div>
+          <div className="py-2">Use input in Shadcn</div>
+          <div>
+            <div className="pt-6 gap-4 flex justify-between">
+              <Input type="text" placeholder="Text" />
+              <Input type="number" placeholder="Number" />
+              <Input type="date" placeholder="date" />
+              <Input type="file" placeholder="File" />
+            </div>
+          </div>
+        </div>
+        {/* Input End */}
       </div>
     </main>
   );
