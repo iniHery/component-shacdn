@@ -1,9 +1,38 @@
-Tutorial run project
+Description Project:
+This is a customized project component from the UI of the website, namely shadcn
 
-Navigate to the cloned project directory:
+## install using 2 different commands npm and yarn
 
-- cd [nama-project]
+1. run the run projects command using npm
+   Here are the steps to install and run the component-shadcn project:
 
-Use the "run" command to execute the project in the browser:
+- Open Git Bash or a terminal and run the following command
+  git clone git@github.com:iniHery/component-shacdn.git
 
-- yarn dev
+- Move to the directory where the project is located
+  cd component-shadcn
+
+- Install project dependencies using npm
+  npm install
+
+## Run Project
+
+- Run the command with
+  npm run dev
+
+2. run the run projects command using yarn
+   Here are the steps to install and run the component-shadcn project:
+
+- Open Git Bash or a terminal and run the following command
+  git clone git@github.com:iniHery/component-shacdn.git
+
+- Move to the directory where the project is located
+  cd component-shadcn
+
+- Install project dependencies using yarn
+  yarn install
+
+## Run Project
+
+- Run the command with
+  yarn dev
